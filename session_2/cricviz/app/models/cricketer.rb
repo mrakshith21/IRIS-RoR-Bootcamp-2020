@@ -9,7 +9,7 @@ class Cricketer < ApplicationRecord
   scope :bowlers, -> { raise NotImplementedError }
 
   # Sort players by the descending number of matches played
-  scope :descending_by_matches, -> { raise NotImplementedError }
+  scope :descending_by_matches, -> { order(matches: :desc) }
 
   # Batting average: Runs scored / (Number of innings in which player has been out)
   #
