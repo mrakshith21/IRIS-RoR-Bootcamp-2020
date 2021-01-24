@@ -27,3 +27,18 @@ new Rails project and build a simple "About Me" webiste with two pages.
 In the second session, we take a closer look at _Model_ of the MVC
 Architecture and talk about databases, migrations and working with
 records.
+
+## [Session 3 - Controllers and Routing](/session_3/README.md)
+
+In the third session, we take a closer look at _Controller_ of the MVC
+Architecture and talk about controllers, routing, authentication and
+authorization. In the assignment, we will build a simple blogging
+website.
+
+## [Session 4 - Views](/session_4/README.md)
+
+To wrap up the Award-Winning trilogy of abstraction layers, we take a
+closer at _View_ of the MVC architecture.
+
+We will take up [BlogSpot](/session_3/README.md), our blogging website
+where we left off in the third session and improve the design.
